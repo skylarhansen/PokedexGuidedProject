@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pokemon Search View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PokemonSearchViewController" customModule="PokedexGuidedProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="HtA-do-Oe3">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QiP-8W-hOb"/>
+                                </connections>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YU3-KA-SB5">
+                                <rect key="frame" x="292" y="289" width="17" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abilities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMV-eC-hSq">
+                                <rect key="frame" x="270" y="318" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54W-6T-cqC">
+                                <rect key="frame" x="278" y="260" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gMV-eC-hSq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1N0-Fo-Cio"/>
+                            <constraint firstItem="YU3-KA-SB5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3uA-YT-MY7"/>
+                            <constraint firstItem="YU3-KA-SB5" firstAttribute="top" secondItem="54W-6T-cqC" secondAttribute="bottom" constant="8" id="507-B3-ZM8"/>
+                            <constraint firstItem="YU3-KA-SB5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JUf-Zk-V81"/>
+                            <constraint firstItem="HtA-do-Oe3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MIp-N8-N4q"/>
+                            <constraint firstAttribute="trailing" secondItem="HtA-do-Oe3" secondAttribute="trailing" id="MVj-aa-mWj"/>
+                            <constraint firstItem="54W-6T-cqC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bxP-Pt-0zW"/>
+                            <constraint firstItem="HtA-do-Oe3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="e6P-P2-5kU"/>
+                            <constraint firstItem="gMV-eC-hSq" firstAttribute="top" secondItem="YU3-KA-SB5" secondAttribute="bottom" constant="8" id="zUn-kV-FVu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="abilitiesLabel" destination="gMV-eC-hSq" id="Dhz-b2-7N4"/>
+                        <outlet property="idLabel" destination="YU3-KA-SB5" id="noL-ba-M80"/>
+                        <outlet property="nameLabel" destination="54W-6T-cqC" id="udT-OB-EOA"/>
+                        <outlet property="searchBar" destination="HtA-do-Oe3" id="yxj-fS-e1Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565" y="402"/>
         </scene>
     </scenes>
 </document>

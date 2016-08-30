@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8CD5B4EA1D75E6640089BC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4E91D75E6640089BC8F /* AppDelegate.swift */; };
-		8CD5B4EC1D75E6640089BC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4EB1D75E6640089BC8F /* ViewController.swift */; };
 		8CD5B4EF1D75E6640089BC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4ED1D75E6640089BC8F /* Main.storyboard */; };
 		8CD5B4F11D75E6640089BC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4F01D75E6640089BC8F /* Assets.xcassets */; };
 		8CD5B4F41D75E6640089BC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4F21D75E6640089BC8F /* LaunchScreen.storyboard */; };
 		8CD5B4FC1D75EA550089BC8F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */; };
 		8CD5B4FE1D75F25F0089BC8F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FD1D75F25F0089BC8F /* NetworkController.swift */; };
 		8CD5B5001D75F2F70089BC8F /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FF1D75F2F70089BC8F /* PokemonController.swift */; };
+		8CD5B5021D7600C90089BC8F /* PokemonSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B5011D7600C90089BC8F /* PokemonSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CD5B4E61D75E6640089BC8F /* PokedexGuidedProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokedexGuidedProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD5B4E91D75E6640089BC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CD5B4EB1D75E6640089BC8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CD5B4EE1D75E6640089BC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD5B4F01D75E6640089BC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD5B4F31D75E6640089BC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		8CD5B4FD1D75F25F0089BC8F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		8CD5B4FF1D75F2F70089BC8F /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		8CD5B5011D7600C90089BC8F /* PokemonSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				8CD5B4E91D75E6640089BC8F /* AppDelegate.swift */,
-				8CD5B4EB1D75E6640089BC8F /* ViewController.swift */,
 				8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */,
 				8CD5B4FD1D75F25F0089BC8F /* NetworkController.swift */,
 				8CD5B4FF1D75F2F70089BC8F /* PokemonController.swift */,
 				8CD5B4ED1D75E6640089BC8F /* Main.storyboard */,
+				8CD5B5011D7600C90089BC8F /* PokemonSearchViewController.swift */,
 				8CD5B4F01D75E6640089BC8F /* Assets.xcassets */,
 				8CD5B4F21D75E6640089BC8F /* LaunchScreen.storyboard */,
 				8CD5B4F51D75E6640089BC8F /* Info.plist */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD5B4FE1D75F25F0089BC8F /* NetworkController.swift in Sources */,
-				8CD5B4EC1D75E6640089BC8F /* ViewController.swift in Sources */,
+				8CD5B5021D7600C90089BC8F /* PokemonSearchViewController.swift in Sources */,
 				8CD5B4EA1D75E6640089BC8F /* AppDelegate.swift in Sources */,
 				8CD5B4FC1D75EA550089BC8F /* Pokemon.swift in Sources */,
 				8CD5B5001D75F2F70089BC8F /* PokemonController.swift in Sources */,
