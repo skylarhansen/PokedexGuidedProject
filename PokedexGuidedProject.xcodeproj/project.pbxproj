@@ -12,6 +12,7 @@
 		8CD5B4EF1D75E6640089BC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4ED1D75E6640089BC8F /* Main.storyboard */; };
 		8CD5B4F11D75E6640089BC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4F01D75E6640089BC8F /* Assets.xcassets */; };
 		8CD5B4F41D75E6640089BC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4F21D75E6640089BC8F /* LaunchScreen.storyboard */; };
+		8CD5B4FC1D75EA550089BC8F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8CD5B4F01D75E6640089BC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD5B4F31D75E6640089BC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CD5B4F51D75E6640089BC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8CD5B4E91D75E6640089BC8F /* AppDelegate.swift */,
 				8CD5B4EB1D75E6640089BC8F /* ViewController.swift */,
+				8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */,
 				8CD5B4ED1D75E6640089BC8F /* Main.storyboard */,
 				8CD5B4F01D75E6640089BC8F /* Assets.xcassets */,
 				8CD5B4F21D75E6640089BC8F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				8CD5B4EC1D75E6640089BC8F /* ViewController.swift in Sources */,
 				8CD5B4EA1D75E6640089BC8F /* AppDelegate.swift in Sources */,
+				8CD5B4FC1D75EA550089BC8F /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
