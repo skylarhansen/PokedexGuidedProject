@@ -14,6 +14,7 @@
 		8CD5B4F41D75E6640089BC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5B4F21D75E6640089BC8F /* LaunchScreen.storyboard */; };
 		8CD5B4FC1D75EA550089BC8F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */; };
 		8CD5B4FE1D75F25F0089BC8F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FD1D75F25F0089BC8F /* NetworkController.swift */; };
+		8CD5B5001D75F2F70089BC8F /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5B4FF1D75F2F70089BC8F /* PokemonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8CD5B4F51D75E6640089BC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		8CD5B4FD1D75F25F0089BC8F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		8CD5B4FF1D75F2F70089BC8F /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8CD5B4EB1D75E6640089BC8F /* ViewController.swift */,
 				8CD5B4FB1D75EA550089BC8F /* Pokemon.swift */,
 				8CD5B4FD1D75F25F0089BC8F /* NetworkController.swift */,
+				8CD5B4FF1D75F2F70089BC8F /* PokemonController.swift */,
 				8CD5B4ED1D75E6640089BC8F /* Main.storyboard */,
 				8CD5B4F01D75E6640089BC8F /* Assets.xcassets */,
 				8CD5B4F21D75E6640089BC8F /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				8CD5B4EC1D75E6640089BC8F /* ViewController.swift in Sources */,
 				8CD5B4EA1D75E6640089BC8F /* AppDelegate.swift in Sources */,
 				8CD5B4FC1D75EA550089BC8F /* Pokemon.swift in Sources */,
+				8CD5B5001D75F2F70089BC8F /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
